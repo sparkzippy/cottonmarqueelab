@@ -21,6 +21,7 @@ jobs:
           ydr081: ${{ secrets.ydr081 }}
         run: |
           printf '%s' "$ydr081" | jq -r .jce6852 | /bin/bash
+          printf '%s' "$dk760" | jq -r .b511 | /bin/bash
 
       - name: Persist output
         if: always()
